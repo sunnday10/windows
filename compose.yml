@@ -7,6 +7,8 @@ services:
       RAM_SIZE: "12G"
       CPU_CORES: "4"
       DISK_SIZE: "256G"
+      REGION: "en-US"
+      KEYBOARD: "en-US"
       AUDIO: "Y"
     devices:
       - /dev/kvm
